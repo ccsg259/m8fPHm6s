@@ -1,0 +1,46 @@
+﻿table
+{
+	border-width: 0px;
+	padding: 2px auto;
+	font-size: 10px;
+	font-family: Verdana;
+	background-color: #F7F6F3;
+	width: 250px;
+}
+td#header
+{
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #dcdcdc;
+	color: #000000;
+	text-align: center;
+}
+td#head
+{
+	font-weight: bold;
+	color: #5D7B9D;
+	text-align: center;
+}
+td#footer
+{
+	text-align: center;
+}
+td#value
+{
+	font-size: 9px;
+	text-align: right;
+	width: 30px;
+}
+input[type="submit"]
+{
+	font-size: 10px;
+	font-weight: bold;
+	font-family: Verdana;
+	background-color: #F7F6F3;
+	color: #7C6F57;
+	border: double 1px #7C6F57;
+}
+label
+{
+	font-family: Verdana;
+}

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Poll>
+  <Vote>
+    <Choice>Obama</Choice>
+  </Vote>
+  <Vote>
+    <Choice>Obama</Choice>
+  </Vote>
+  <Vote>
+    <Choice>McCain</Choice>
+  </Vote>
+  <Vote>
+    <Choice>McCain</Choice>
+  </Vote>
+</Poll>

@@ -1,0 +1,10 @@
+C:\Users\David.Lewis\Documents\Visual Studio 2008\Projects\WinForm-Poll-cs\WinForm-Poll-cs\bin\Debug\WinForm-Poll-cs.exe
+C:\Users\David.Lewis\Documents\Visual Studio 2008\Projects\WinForm-Poll-cs\WinForm-Poll-cs\bin\Debug\WinForm-Poll-cs.pdb
+C:\Users\David.Lewis\Documents\Visual Studio 2008\Projects\WinForm-Poll-cs\WinForm-Poll-cs\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\David.Lewis\Documents\Visual Studio 2008\Projects\WinForm-Poll-cs\WinForm-Poll-cs\obj\Debug\WinForm_Poll_cs.Form1.resources
+C:\Users\David.Lewis\Documents\Visual Studio 2008\Projects\WinForm-Poll-cs\WinForm-Poll-cs\obj\Debug\WinForm_Poll_cs.Properties.Resources.resources
+C:\Users\David.Lewis\Documents\Visual Studio 2008\Projects\WinForm-Poll-cs\WinForm-Poll-cs\obj\Debug\WinForm-Poll-cs.csproj.GenerateResource.Cache
+C:\Users\David.Lewis\Documents\Visual Studio 2008\Projects\WinForm-Poll-cs\WinForm-Poll-cs\obj\Debug\WinForm-Poll-cs.exe
+C:\Users\David.Lewis\Documents\Visual Studio 2008\Projects\WinForm-Poll-cs\WinForm-Poll-cs\obj\Debug\WinForm-Poll-cs.pdb
+C:\Users\Administrador\Desktop\WinForm-Poll-cs\WinForm-Poll-cs\obj\Debug\WinForm-Poll-cs.exe
+C:\Users\Administrador\Desktop\WinForm-Poll-cs\WinForm-Poll-cs\obj\Debug\WinForm-Poll-cs.pdb

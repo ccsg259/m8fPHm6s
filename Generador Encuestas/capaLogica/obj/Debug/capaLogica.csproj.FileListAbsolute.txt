@@ -1,0 +1,10 @@
+C:\Users\Administrador\Documents\desarrollo\Generador Encuestas\capaLogica\bin\Debug\capaLogica.dll
+C:\Users\Administrador\Documents\desarrollo\Generador Encuestas\capaLogica\bin\Debug\capaLogica.pdb
+C:\Users\Administrador\Documents\desarrollo\Generador Encuestas\capaLogica\obj\Debug\capaLogica.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\desarrollo\Generador Encuestas\capaLogica\obj\Debug\capaLogica.dll
+C:\Users\Administrador\Documents\desarrollo\Generador Encuestas\capaLogica\obj\Debug\capaLogica.pdb
+C:\Users\Administrador\Documents\VisualStudio\Generador Encuestas\capaLogica\bin\Debug\capaLogica.dll
+C:\Users\Administrador\Documents\VisualStudio\Generador Encuestas\capaLogica\bin\Debug\capaLogica.pdb
+C:\Users\Administrador\Documents\VisualStudio\Generador Encuestas\capaLogica\obj\Debug\capaLogica.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\VisualStudio\Generador Encuestas\capaLogica\obj\Debug\capaLogica.dll
+C:\Users\Administrador\Documents\VisualStudio\Generador Encuestas\capaLogica\obj\Debug\capaLogica.pdb

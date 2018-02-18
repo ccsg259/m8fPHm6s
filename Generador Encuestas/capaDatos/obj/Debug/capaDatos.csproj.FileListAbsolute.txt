@@ -1,0 +1,14 @@
+C:\Users\Administrador\Documents\desarrollo\Generador Encuestas\capaDatos\bin\Debug\capaDatos.dll
+C:\Users\Administrador\Documents\desarrollo\Generador Encuestas\capaDatos\bin\Debug\capaDatos.pdb
+C:\Users\Administrador\Documents\desarrollo\Generador Encuestas\capaDatos\obj\Debug\capaDatos.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\desarrollo\Generador Encuestas\capaDatos\obj\Debug\capaDatos.dll
+C:\Users\Administrador\Documents\desarrollo\Generador Encuestas\capaDatos\obj\Debug\capaDatos.pdb
+C:\Users\Administrador\Documents\desarrollo\Generador Encuestas\capaDatos\bin\Debug\capaLogica.dll
+C:\Users\Administrador\Documents\desarrollo\Generador Encuestas\capaDatos\bin\Debug\capaLogica.pdb
+C:\Users\Administrador\Documents\VisualStudio\Generador Encuestas\capaDatos\bin\Debug\capaDatos.dll
+C:\Users\Administrador\Documents\VisualStudio\Generador Encuestas\capaDatos\bin\Debug\capaDatos.pdb
+C:\Users\Administrador\Documents\VisualStudio\Generador Encuestas\capaDatos\bin\Debug\capaLogica.dll
+C:\Users\Administrador\Documents\VisualStudio\Generador Encuestas\capaDatos\bin\Debug\capaLogica.pdb
+C:\Users\Administrador\Documents\VisualStudio\Generador Encuestas\capaDatos\obj\Debug\capaDatos.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\VisualStudio\Generador Encuestas\capaDatos\obj\Debug\capaDatos.dll
+C:\Users\Administrador\Documents\VisualStudio\Generador Encuestas\capaDatos\obj\Debug\capaDatos.pdb

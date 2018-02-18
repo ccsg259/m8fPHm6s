@@ -1,0 +1,4 @@
+C:\Users\Administrador\Documents\desarrollo\ServicioWeb\CapaLogica\bin\Release\CapaLogica.dll
+C:\Users\Administrador\Documents\desarrollo\ServicioWeb\CapaLogica\bin\Release\CapaLogica.pdb
+C:\Users\Administrador\Documents\desarrollo\ServicioWeb\CapaLogica\obj\Release\CapaLogica.dll
+C:\Users\Administrador\Documents\desarrollo\ServicioWeb\CapaLogica\obj\Release\CapaLogica.pdb

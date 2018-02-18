@@ -1,0 +1,5 @@
+C:\Users\Administrador\Desktop\_xmlPoll\XmlPoll\xmlPoll\bin\xmlPoll.dll
+C:\Users\Administrador\Desktop\_xmlPoll\XmlPoll\xmlPoll\bin\xmlPoll.pdb
+C:\Users\Administrador\Desktop\_xmlPoll\XmlPoll\xmlPoll\obj\Debug\xmlPoll.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\_xmlPoll\XmlPoll\xmlPoll\obj\Debug\xmlPoll.dll
+C:\Users\Administrador\Desktop\_xmlPoll\XmlPoll\xmlPoll\obj\Debug\xmlPoll.pdb

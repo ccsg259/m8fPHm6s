@@ -1,0 +1,9 @@
+C:\Users\Administrador\Documents\desarrollo\ServicioWeb\ServicioWeb\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\desarrollo\ServicioWeb\ServicioWeb\bin\ServicioWeb.dll
+C:\Users\Administrador\Documents\desarrollo\ServicioWeb\ServicioWeb\bin\ServicioWeb.pdb
+C:\Users\Administrador\Documents\desarrollo\ServicioWeb\ServicioWeb\bin\CapaDatos.dll
+C:\Users\Administrador\Documents\desarrollo\ServicioWeb\ServicioWeb\bin\CapaLogica.dll
+C:\Users\Administrador\Documents\desarrollo\ServicioWeb\ServicioWeb\bin\CapaDatos.pdb
+C:\Users\Administrador\Documents\desarrollo\ServicioWeb\ServicioWeb\bin\CapaLogica.pdb
+C:\Users\Administrador\Documents\desarrollo\ServicioWeb\ServicioWeb\obj\Debug\ServicioWeb.dll
+C:\Users\Administrador\Documents\desarrollo\ServicioWeb\ServicioWeb\obj\Debug\ServicioWeb.pdb

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-9"?>
+<Poll name="Which OS do you use?">
+  <answer text="Windows?">60</answer>
+  <answer text="Mac OS">15</answer>
+  <answer text="Linux">10</answer>
+  <answer text="BeOS">10</answer>
+</Poll>
