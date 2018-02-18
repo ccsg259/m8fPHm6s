@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace capaDatos
@@ -43,6 +40,7 @@ namespace capaDatos
         #endregion
 
         #region procedimientos para el tratamiento de componentes
+       
         private TreeNode Searchnode(string nodetext, TreeView trv)
         {
             foreach (TreeNode node in trv.Nodes)
@@ -55,6 +53,20 @@ namespace capaDatos
             return null;
         }
 
+
+        protected void PopulateTreeView(TreeNode parentNode, string parentID, DataTable dtBloques)
+        {
+           
+            foreach (DataRow bloque in dtBloques.Rows)
+            {
+                if (Convert.ToString(bloque["Id_Encuesta"]) == parentID)
+                {
+                    String text = bloque["Texto"].ToString();
+                    parentNode.Nodes.Add(text);
+                    
+                }
+            }
+        }
         public void LLenarArbol(TreeView treeView)
         {
             DataTable dt = this.GetDatos();
@@ -67,21 +79,18 @@ namespace capaDatos
                 node = Searchnode(row["Id_Unico"].ToString(), treeView);
                 if(node != null)
                 {
-                    // metemos los bloques mas adelante
-                    // subnode = new TreeNode(row["Titulo"].ToString());
-                    // y lo agregamos al nodo
-                    // node.Nodes.Add(subnode);
-
+                    
+                    DataTable dtB = new Bloque().GetDatos();
+                    this.PopulateTreeView(node, row["Id_Unico"].ToString(), dtB);
                 }
                 else
                 {
+                    DataTable dtB = new Bloque().GetDatos();
                     node = new TreeNode(row["Titulo"].ToString());
-                    // metemos los bloques mas adelante
-                    // subnode = new TreeNode(row["Titulo"].ToString());
-                    // y lo agregamos al nodo
-                    // node.Nodes.Add(subnode);
+                    this.PopulateTreeView(node, row["Id_Unico"].ToString(), dtB);
                     treeView.Nodes.Add(node);
-                
+                    
+                                   
                 }
 
             }

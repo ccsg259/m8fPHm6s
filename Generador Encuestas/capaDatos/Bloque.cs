@@ -4,6 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
+using System.Windows.Forms;
 
 namespace capaDatos
 {
@@ -40,6 +41,8 @@ namespace capaDatos
             da.Fill(dt);
             return dt; // Regresamos el DataTable
         }
+
+        
 
         #endregion
 

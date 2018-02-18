@@ -26,19 +26,11 @@ namespace Encuestas
 
         private void frmGeneradorEncuestas_Load(object sender, EventArgs e)
         {
-            // se cargan las encuestas
+            // se cargan las encuestas y los bloques en el Treeview
             Encuesta encuestas = new Encuesta();
-            this.dgEncuestas.DataSource = encuestas.GetDatos();
-            this.dgEncuestas.Columns["Id_Unico"].Visible = false;
-            this.dgEncuestas.Columns["Fecha"].Visible = false;
-
             encuestas.LLenarArbol(this.treeView1);
            
-            // se cargan los bloques
-            Bloque bloque = new Bloque();
-            this.dgBloque.DataSource = bloque.GetDatos();
-            this.dgBloque.Columns["Id_Unico"].Visible = false;
-            this.dgBloque.Columns["Id_Encuesta"].Visible = false;
+            
            
         }
 

@@ -3,3 +3,8 @@ C:\Users\Administrador\Documents\desarrollo\ServicioWeb\CapaDatos\bin\Release\Ca
 C:\Users\Administrador\Documents\desarrollo\ServicioWeb\CapaDatos\obj\Release\CapaDatos.dll
 C:\Users\Administrador\Documents\desarrollo\ServicioWeb\CapaDatos\obj\Release\CapaDatos.pdb
 C:\Users\Administrador\Documents\desarrollo\ServicioWeb\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\ccsg\dev\ServicioWeb\CapaDatos\bin\Release\CapaDatos.dll
+C:\Users\Administrador\Documents\ccsg\dev\ServicioWeb\CapaDatos\bin\Release\CapaDatos.pdb
+C:\Users\Administrador\Documents\ccsg\dev\ServicioWeb\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\ccsg\dev\ServicioWeb\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\Administrador\Documents\ccsg\dev\ServicioWeb\CapaDatos\obj\Release\CapaDatos.pdb
