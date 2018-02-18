@@ -4,6 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
+using System.Windows.Forms;
 
 namespace capaDatos
 {
@@ -42,10 +43,49 @@ namespace capaDatos
         #endregion
 
         #region procedimientos para el tratamiento de componentes
-        public void llenar()
+        private TreeNode Searchnode(string nodetext, TreeView trv)
         {
-            DataSet ds = new DataSet();
+            foreach (TreeNode node in trv.Nodes)
+            {
+                if (node.Text == nodetext)
+                {
+                    return node;
+                }
+            }
+            return null;
+        }
 
+        public void LLenarArbol(TreeView treeView)
+        {
+            DataTable dt = this.GetDatos();
+            treeView.Nodes.Clear();
+            TreeNode node = default(TreeNode);
+            TreeNode subnode = default(TreeNode);
+
+            foreach(DataRow row in dt.Rows)
+            {
+                node = Searchnode(row["Id_Unico"].ToString(), treeView);
+                if(node != null)
+                {
+                    // metemos los bloques mas adelante
+                    // subnode = new TreeNode(row["Titulo"].ToString());
+                    // y lo agregamos al nodo
+                    // node.Nodes.Add(subnode);
+
+                }
+                else
+                {
+                    node = new TreeNode(row["Titulo"].ToString());
+                    // metemos los bloques mas adelante
+                    // subnode = new TreeNode(row["Titulo"].ToString());
+                    // y lo agregamos al nodo
+                    // node.Nodes.Add(subnode);
+                    treeView.Nodes.Add(node);
+                
+                }
+
+            }
+            treeView.ExpandAll();
 
 
         }

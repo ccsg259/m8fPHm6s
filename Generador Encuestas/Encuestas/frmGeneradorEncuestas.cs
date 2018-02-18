@@ -31,6 +31,9 @@ namespace Encuestas
             this.dgEncuestas.DataSource = encuestas.GetDatos();
             this.dgEncuestas.Columns["Id_Unico"].Visible = false;
             this.dgEncuestas.Columns["Fecha"].Visible = false;
+
+            encuestas.LLenarArbol(this.treeView1);
+           
             // se cargan los bloques
             Bloque bloque = new Bloque();
             this.dgBloque.DataSource = bloque.GetDatos();
@@ -51,7 +54,6 @@ namespace Encuestas
 
         private void txtNuevaEncuesta_Click(object sender, EventArgs e)
         {
-            
             csFP p = new csFP();
             /* Orden de las preguntas
              * 0 - Numero de Orden de la pregunta.
