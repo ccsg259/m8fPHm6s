@@ -247,4 +247,14 @@ namespace capaLogica
         #endregion
 
     }
+
+    public class csArbolTreeView
+    {
+        public void llenar()
+        {
+            System.Data.DataSet ds = new System.Data.DataSet();
+
+
+        }
+    }
 }

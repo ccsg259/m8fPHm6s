@@ -41,6 +41,17 @@ namespace capaDatos
 
         #endregion
 
+        #region procedimientos para el tratamiento de componentes
+        public void llenar()
+        {
+            DataSet ds = new DataSet();
+
+
+
+        }
+        #endregion
+
+
 
 
     }

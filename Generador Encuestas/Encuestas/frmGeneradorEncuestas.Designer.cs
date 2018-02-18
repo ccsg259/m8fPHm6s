@@ -39,6 +39,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.txtEliminarEncuesta = new System.Windows.Forms.Button();
+            this.treeView1 = new System.Windows.Forms.TreeView();
             ((System.ComponentModel.ISupportInitialize)(this.dgEncuestas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgBloque)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgPregunta)).BeginInit();
@@ -75,9 +76,9 @@
             // 
             this.dgEncuestas.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgEncuestas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgEncuestas.Location = new System.Drawing.Point(20, 40);
+            this.dgEncuestas.Location = new System.Drawing.Point(47, 210);
             this.dgEncuestas.Name = "dgEncuestas";
-            this.dgEncuestas.Size = new System.Drawing.Size(439, 188);
+            this.dgEncuestas.Size = new System.Drawing.Size(353, 109);
             this.dgEncuestas.TabIndex = 5;
             // 
             // dgBloque
@@ -93,9 +94,9 @@
             // 
             this.dgPregunta.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgPregunta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgPregunta.Location = new System.Drawing.Point(20, 234);
+            this.dgPregunta.Location = new System.Drawing.Point(465, 244);
             this.dgPregunta.Name = "dgPregunta";
-            this.dgPregunta.Size = new System.Drawing.Size(858, 184);
+            this.dgPregunta.Size = new System.Drawing.Size(413, 174);
             this.dgPregunta.TabIndex = 7;
             // 
             // txtNuevaEncuesta
@@ -144,11 +145,19 @@
             this.txtEliminarEncuesta.Text = "-";
             this.txtEliminarEncuesta.UseVisualStyleBackColor = true;
             // 
+            // treeView1
+            // 
+            this.treeView1.Location = new System.Drawing.Point(20, 40);
+            this.treeView1.Name = "treeView1";
+            this.treeView1.Size = new System.Drawing.Size(361, 144);
+            this.treeView1.TabIndex = 13;
+            // 
             // frmGeneradorEncuestas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(890, 477);
+            this.Controls.Add(this.treeView1);
             this.Controls.Add(this.txtEliminarEncuesta);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -186,7 +195,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button txtEliminarEncuesta;
-
+        private System.Windows.Forms.TreeView treeView1;
     }
 }
 
