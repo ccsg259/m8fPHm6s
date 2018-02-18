@@ -24,7 +24,5 @@ C:\Users\Administrador\Documents\VisualStudio\Generador Encuestas\Encuestas\bin\
 C:\Users\Administrador\Documents\VisualStudio\Generador Encuestas\Encuestas\bin\Debug\capaLogica.dll
 C:\Users\Administrador\Documents\VisualStudio\Generador Encuestas\Encuestas\bin\Debug\capaDatos.pdb
 C:\Users\Administrador\Documents\VisualStudio\Generador Encuestas\Encuestas\bin\Debug\capaLogica.pdb
-C:\Users\Administrador\Documents\ccsg\dev\Generador Encuestas\Encuestas\obj\Debug\Encuestas.exe
-C:\Users\Administrador\Documents\ccsg\dev\Generador Encuestas\Encuestas\obj\Debug\Encuestas.pdb
 C:\Users\Administrador\Documents\ccsg\ved\Generador Encuestas\Encuestas\obj\Debug\Encuestas.exe
 C:\Users\Administrador\Documents\ccsg\ved\Generador Encuestas\Encuestas\obj\Debug\Encuestas.pdb
