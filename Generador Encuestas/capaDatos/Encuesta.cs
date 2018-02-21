@@ -53,9 +53,27 @@ namespace capaDatos
             return null;
         }
 
-
-        protected void PopulateTreeView(TreeNode parentNode, string parentID, DataTable dtBloques)
+        protected void preguntaTreeView(TreeNode parentNode, string parentID, DataTable dtPreguntas)
         {
+
+            foreach (DataRow pregunta in dtPreguntas.Rows)
+            {
+                if (Convert.ToString(pregunta["Id_Bloque"]) == parentID)
+                {
+                    String text = bloque["Texto"].ToString();
+
+
+                    parentNode.Nodes.Add(text);
+                    // llenar las preguntas de la base de datos.
+
+
+                }
+            }
+        }
+
+        protected void bloqueTreeView(TreeNode parentNode, string parentID, DataTable dtBloques)
+        {
+            DataTable dtP = new Pregunta().GetDatos();
            
             foreach (DataRow bloque in dtBloques.Rows)
             {
@@ -63,45 +81,36 @@ namespace capaDatos
                 {
                     String text = bloque["Texto"].ToString();
                     parentNode.Nodes.Add(text);
-                    
+                    // llenar las preguntas de la base de datos.
+                    preguntaTreeView(parentNode, bloque["Id_Unico"].ToString(), dtP);
                 }
             }
         }
         public void LLenarArbol(TreeView treeView)
         {
-            DataTable dt = this.GetDatos();
+            DataTable dtE = this.GetDatos();
+            DataTable dtB = new Bloque().GetDatos();
+
+
             treeView.Nodes.Clear();
             TreeNode node = default(TreeNode);
-            TreeNode subnode = default(TreeNode);
 
-            foreach(DataRow row in dt.Rows)
+            foreach (DataRow row in dtE.Rows)
             {
                 node = Searchnode(row["Id_Unico"].ToString(), treeView);
                 if(node != null)
                 {
-                    
-                    DataTable dtB = new Bloque().GetDatos();
-                    this.PopulateTreeView(node, row["Id_Unico"].ToString(), dtB);
+                    this.bloqueTreeView(node, row["Id_Unico"].ToString(), dtB);
                 }
                 else
                 {
-                    DataTable dtB = new Bloque().GetDatos();
                     node = new TreeNode(row["Titulo"].ToString());
-                    this.PopulateTreeView(node, row["Id_Unico"].ToString(), dtB);
+                    this.bloqueTreeView(node, row["Id_Unico"].ToString(), dtB);
                     treeView.Nodes.Add(node);
-                    
-                                   
                 }
-
             }
             treeView.ExpandAll();
-
-
         }
         #endregion
-
-
-
-
     }
 }

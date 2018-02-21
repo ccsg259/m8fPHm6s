@@ -73,8 +73,10 @@ namespace capaLogica
             {
                 [XmlAttribute("IdBloque")]
                 public string IdBloque { get; set; }
+
                 [XmlAttribute("Title")]
                 public string Title { get; set; }
+            
                 // definir los elementos para las preguntas
                 [XmlArrayItem("Answer")]
                 public Pregunta[] Answers {get; set;}
@@ -84,8 +86,10 @@ namespace capaLogica
             {
                 [XmlAttribute("order")]
                 public string order {get;set;}
+
                 [XmlAttribute("text")]
                 public string text {get;set;}
+
                 [XmlAttribute("type")]
                 public string type {get;set;}
                 
@@ -244,15 +248,5 @@ namespace capaLogica
     
         #endregion
 
-    }
-
-    public class csArbolTreeView
-    {
-        public void llenar()
-        {
-            System.Data.DataSet ds = new System.Data.DataSet();
-
-
-        }
     }
 }
