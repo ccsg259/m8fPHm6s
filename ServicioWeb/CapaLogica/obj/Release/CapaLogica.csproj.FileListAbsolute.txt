@@ -2,3 +2,8 @@ C:\Users\Administrador\Documents\desarrollo\ServicioWeb\CapaLogica\bin\Release\C
 C:\Users\Administrador\Documents\desarrollo\ServicioWeb\CapaLogica\bin\Release\CapaLogica.pdb
 C:\Users\Administrador\Documents\desarrollo\ServicioWeb\CapaLogica\obj\Release\CapaLogica.dll
 C:\Users\Administrador\Documents\desarrollo\ServicioWeb\CapaLogica\obj\Release\CapaLogica.pdb
+C:\Users\Administrador\Documents\ccsg\dev\ServicioWeb\CapaLogica\bin\Release\CapaLogica.dll
+C:\Users\Administrador\Documents\ccsg\dev\ServicioWeb\CapaLogica\bin\Release\CapaLogica.pdb
+C:\Users\Administrador\Documents\ccsg\dev\ServicioWeb\CapaLogica\obj\Release\CapaLogica.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\ccsg\dev\ServicioWeb\CapaLogica\obj\Release\CapaLogica.dll
+C:\Users\Administrador\Documents\ccsg\dev\ServicioWeb\CapaLogica\obj\Release\CapaLogica.pdb

@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Data.SqlClient;
-using ServicioWeb;
-using System.Web.Services;
+﻿using System.Web.Services;
 
 
 namespace ServicioWeb
